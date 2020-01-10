@@ -1,3 +1,40 @@
+.sacola {
+    background-image: url(../img/sacola.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    position: absolute;
+    top: 0;
+    right: 0; 
+
+        font-size: 14px;
+        padding-right: 35px;
+        text-align: right;
+        width: 140px;    
+        padding-top: 8px;
+}
+
+.menu-opcoes ul {
+    font-size: 15px;
+}
+
+.menu-opcoes a {
+    color: #003366;
+}
+.menu-opcoes ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header {
+    position: relative;
+}
+
+.menu-opcoes {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
 body{
     color: #333333;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
@@ -33,17 +70,58 @@ p{
     margin-right: auto;
     width: 550px;
 }
-#rodape {
-    color: #777;
-    margin: 30px 0;
-    padding: 30px 0;
+footer {
+    background-image: url(../img/fundo-rodape.png);
+    clear: both;
+    padding: 20px 0;
 }
-#rodape img {
-    margin-right: 30px;
-    vertical-align: middle;
-    width: 94px;
+
+.social a {
+    height: 32px;
+    width: 32px;
+    display: block;
+    text-indent: -9999px;
+}
+
+.social a [href*="facebook.com"] {
+    background-image: url(.../img/facebook.png);
+}
+
+.social a[href*="twitter.com"] {
+    background-image: url(.../img/twitter.png);
+}
+
+.social a[href*="plus.google.com"]{
+    background-image: url(.../img/googlepus.png);
+}
+
+footer .container{
+    position: relative;
+}
+
+.social{
+    position: absolute;
+    top: 12px;
+    right: 0;
+}
+
+.social li{
+    float: left;
+    margin-left: 25px;
 }
 #familia-pelho {
     float: right;
     margin:  0 0 10px 10px;
+}
+
+p::first-letter{
+    font-weight: bold;
+}
+
+h1 + p {
+    text-indent: 0;
+}
+
+p::first-line{
+    font-variant: small-caps;
 }
