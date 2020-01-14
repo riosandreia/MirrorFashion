@@ -52,7 +52,7 @@ header {
     font-weight: bold;
     text-transform: uppercase;
 
-    margin-right: 10px;
+    margin-right: 70px;
     width: 230px;
 }
 
@@ -109,10 +109,18 @@ header {
     background: linear-gradient(#F5DCDC,#BEBEF4);
 }
 
+.novidades ol{
+    padding: 0;
+}
+
 .mais-vendidos{
     float: right;
     background-color: #DCDCF5;
     background: linear-gradient(#DCDCF5,#F4BEBE);
+}
+
+.mais-vendidos ol{
+    padding: 0;
 }
 
 .painel li {
@@ -153,16 +161,16 @@ footer {
     text-indent: -9999px;
 }
 
-.social a [href*="facebook.com"] {
-    background-image: url(.../img/facebook.png);
+.social a[href*="facebook.com"] {
+    background-image: url(../img/facebook.png);
 }
 
 .social a[href*="twitter.com"] {
-    background-image: url(.../img/twitter.png);
+    background-image: url(../img/twitter.png);
 }
 
 .social a[href*="plus.google.com"]{
-    background-image: url(.../img/googlepus.png);
+    background-image: url(../img/googleplus.png);
 }
 
 footer .container{
@@ -186,7 +194,7 @@ footer .container{
     border: none;
     width: 20px;
     height: 20px;
-    text-indent: none;
+    text-indent: -9999px;
 }
 
 .menu-opcoes a:hover{
@@ -199,6 +207,7 @@ footer .container{
 
 .menu-departamentos li ul{
     display: none;
+    list-style-type: none;
 }
 
 .menu-departamentos li:hover ul{
@@ -233,7 +242,7 @@ footer .container{
 }
 
 .painel li:nth-child(2n):hover{
-    transform: scale(1.2); rotate(5deg);
+    transform: scale(1.2) rotate(5deg);
 }
 
 @media (max-width: 939px){
@@ -281,4 +290,8 @@ footer .container{
     .painel img{
         width: 100%;
     }
+}
+
+figure {
+    margin: 0;
 }
