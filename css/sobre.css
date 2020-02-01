@@ -37,10 +37,12 @@ header {
 
 body{
     color: #333333;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    margin-left: auto;
-    margin-right: auto;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif; 
+}
+
+article{
     width: 940px;
+    margin: 0 auto;
 }
 h1	{
     background-image:	url(../img/sobre-background.jpg);
@@ -76,6 +78,12 @@ footer {
     padding: 20px 0;
 }
 
+.rodape{
+    position: relative;
+    margin: 0 auto;
+    width: 940px;
+}
+
 .social a {
     height: 32px;
     width: 32px;
@@ -83,16 +91,16 @@ footer {
     text-indent: -9999px;
 }
 
-.social a [href*="facebook.com"] {
-    background-image: url(.../img/facebook.png);
+.social a[href*="facebook.com"] {
+    background-image: url(../img/facebook.png);
 }
 
 .social a[href*="twitter.com"] {
-    background-image: url(.../img/twitter.png);
+    background-image: url(../img/twitter.png);
 }
 
 .social a[href*="plus.google.com"]{
-    background-image: url(.../img/googlepus.png);
+    background-image: url(../img/googleplus.png);
 }
 
 footer .container{
