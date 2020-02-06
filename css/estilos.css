@@ -109,18 +109,10 @@ header {
     background: linear-gradient(#F5DCDC,#BEBEF4);
 }
 
-.novidades ol{
-    padding: 0;
-}
-
 .mais-vendidos{
     float: right;
     background-color: #DCDCF5;
     background: linear-gradient(#DCDCF5,#F4BEBE);
-}
-
-.mais-vendidos ol{
-    padding: 0;
 }
 
 .painel li {
